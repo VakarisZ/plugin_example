@@ -1,0 +1,22 @@
+{
+  "plugins": ["l33t_w0rm.plugins.voip_exploiter"],
+  "exploiters": [
+    {
+      "type": "web_exploiter",
+      "service": "SQL"
+    },
+    {
+      "type": "brute_forcer",
+      "service": "RDP"
+    },
+    {
+      "type": "phisher",
+      "service": "E-mail"
+    },
+    {
+      "type": "voip_exploiter",
+      "service": "Zoom",
+      "username": "Vakaris"
+    }
+  ]
+}
